@@ -1,0 +1,47 @@
+.header {
+  background-image: url(./Annexes/background.jpg);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 1s ;
+}
+
+.nav-link {
+  color: black !important;
+  background-color: white;
+}
+
+.bg-grey {
+    background:rgba(216, 216, 216, 0.56);
+}
+
+.pb-12{
+    padding-top:17rem;
+}
+
+div#navbarNav{
+    position: absolute;
+    z-index: 10;
+    right:0%;
+    left:0%;
+}
+
+
+@media (max-width:768px) {
+
+    .wrapv {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pb-12 {
+        padding-top:8rem
+    }
+    
+}
+
+
+.icon-white {
+    color:white !important
+}
