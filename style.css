@@ -45,3 +45,9 @@ div#navbarNav{
 .icon-white {
     color:white !important
 }
+
+@media (min-width:768px) {
+button.btn.btn-val.btn-success {
+    width: 320px;
+}
+}
